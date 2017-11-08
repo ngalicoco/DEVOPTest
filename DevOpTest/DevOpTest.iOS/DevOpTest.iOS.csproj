@@ -114,12 +114,6 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DevOpTest\DevOpTest.csproj">
-      <Project>{30623c78-7f68-4830-8bdd-a4273d252d7d}</Project>
-      <Name>DevOpTest</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <InProject>false</InProject>
     </ImageAsset>
@@ -149,6 +143,12 @@
     <BundleResource Include="Resources\xamarin_logo.png" />
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevOpTest\DevOpTest.csproj">
+      <Project>{f14bf212-5a28-416a-a96b-ca7e794f6086}</Project>
+      <Name>DevOpTest</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
