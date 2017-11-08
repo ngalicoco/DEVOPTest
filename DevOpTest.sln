@@ -49,6 +49,7 @@ Global
 		{F14BF212-5A28-416A-A96B-CA7E794F6086}.iOS Release|ARM.ActiveCfg = Release|Any CPU
 		{F14BF212-5A28-416A-A96B-CA7E794F6086}.iOS Release|ARM.Build.0 = Release|Any CPU
 		{F14BF212-5A28-416A-A96B-CA7E794F6086}.iOS Release|iPhone.ActiveCfg = Release|Any CPU
+		{F14BF212-5A28-416A-A96B-CA7E794F6086}.iOS Release|iPhone.Build.0 = Release|Any CPU
 		{F14BF212-5A28-416A-A96B-CA7E794F6086}.iOS Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{F14BF212-5A28-416A-A96B-CA7E794F6086}.iOS Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{F14BF212-5A28-416A-A96B-CA7E794F6086}.iOS Release|x64.ActiveCfg = Release|Any CPU
