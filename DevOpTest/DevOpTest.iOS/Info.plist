@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>DevOpTest.iOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>DevOpTest.iOS</string>
+	<string>com.co-construct.*</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
