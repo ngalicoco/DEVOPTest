@@ -15,7 +15,8 @@ namespace DevOpTest
                 case Device.iOS:
                     itemsPage = new NavigationPage(new ItemsPage())
                     {
-                        Title = "Browse"
+                        Title = "Browse",
+                        AutomationId="ItemsPageId"
                     };
 
                     aboutPage = new NavigationPage(new AboutPage())

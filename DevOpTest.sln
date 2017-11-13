@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpTest", "DevOpTest\DevOpTest\DevOpTest.csproj", "{F14BF212-5A28-416A-A96B-CA7E794F6086}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpTest.iOS", "DevOpTest\DevOpTest.iOS\DevOpTest.iOS.csproj", "{46120CE2-10D3-4A8B-806B-A9725E0FDE26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpTest.UWP", "DevOpTest\DevOpTest.UWP\DevOpTest.UWP.csproj", "{2407A8CE-8EBC-4F8D-BFA2-7F205A9D59E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITests", "UITests\UITests.csproj", "{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,42 @@ Global
 		{2407A8CE-8EBC-4F8D-BFA2-7F205A9D59E0}.Release|x86.ActiveCfg = Release|x86
 		{2407A8CE-8EBC-4F8D-BFA2-7F205A9D59E0}.Release|x86.Build.0 = Release|x86
 		{2407A8CE-8EBC-4F8D-BFA2-7F205A9D59E0}.Release|x86.Deploy.0 = Release|x86
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|ARM.Build.0 = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|x64.Build.0 = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Debug|x86.Build.0 = Debug|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|Any CPU.Build.0 = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|ARM.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|ARM.Build.0 = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|iPhone.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|iPhone.Build.0 = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|x64.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|x64.Build.0 = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|x86.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.iOS Release|x86.Build.0 = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|ARM.Build.0 = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|iPhone.Build.0 = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|x64.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|x64.Build.0 = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|x86.ActiveCfg = Release|Any CPU
+		{D443AE17-1DC5-45B9-BFC0-7A47697F4E60}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
